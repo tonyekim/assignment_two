@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+a {
+    text-decoration: none;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+#navbar h3 {
+    font-weight: normal;
+    color: black;
+    cursor: pointer;
+}
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+#navbar ul li a {
+    font-size: 13px;
+    color: grey;
+    padding: 20px;
+
+}
+#navbar ul li a:hover {
+    color: black;
+}
+.london {
+    color: black;
+    font-weight: lighter;
+}
+
+/* BODY */
+.body {
+    display: flex;
+    /* flex-direction: column; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 70px;
+    /* height: 100%; */
+    margin-bottom: 100px;
+    
+}
+.body h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 60px;
+
+}
+/* IMAGE GALARY */
+#image-galary {
+    display: flex;
+    margin: 0 40px;
+
+    
+}
+
+
+.darkness {
+    height: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/darkness.jpg);
+    flex: 1;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
+    
+
+    
+}
+
+.darkness:hover {
+    color: white;
+}
+.dontstop {
+    height: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/dont-stop.jpg);
+    flex: 1;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.dontstop:hover {
+    color: white;
+}
+ 
+.fruit {
+    display: flex;
+    margin: 0 40px;
+    background-image: url(/images/blueimage.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+.fruit:hover {
+    color: white;
+}
+.red_spike {
+    display: flex;
+    margin: 0 40px;
+}
+
+
+.red {
+    height: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/red.jpg);
+    flex: 1;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+   
+}
+.red:hover {
+    color: white;
+}
+.spike {
+    height: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/spike.jpg);
+    flex: 1;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    
+}
+.spike:hover {
+    color: white;
+}
+.green {
+    display: flex;
+    height: 400px;
+    background-image: url(/images/green.jpg);
+    margin: 0 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.green:hover {
+    color: white;
+}
+.banana_fur {
+    display: flex;
+    margin: 0 40px;
+}
+.banana {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-image: url(/images/fruit.jpg);
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+    cursor: pointer;
+
+}
+.banana:hover {
+    color: white;
+}
+.fur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-image: url(/images/the\ fur.jpg);
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+    cursor: pointer;
+}
+.fur:hover {
+    color: white;
+}
+
+.darkness1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-image: url(/images/darkness.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0 40px;
+    cursor: pointer;
+}
+.darkness1:hover {
+    color: white;
+}
+
+
+.post_tomatoes {
+    display: flex;
+    margin: 0 40px;
+    margin-bottom: 50px;
+}
+.post {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-image: url(/images/dont-stop.jpg);
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+    cursor: pointer;
+
+}
+.post:hover {
+    color: white;
+}
+.tomatoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-image: url(/images/tomatoes.jpg);
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+    cursor: pointer;
+}
+.tomatoes:hover {
+    color: white;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+footer p {
+    font-size: 13px;
+    color: grey;
+    
+}
+footer a {
+    color: grey;
+}
+footer a:hover {
+    text-decoration: underline;
+    
+
+
+
+
